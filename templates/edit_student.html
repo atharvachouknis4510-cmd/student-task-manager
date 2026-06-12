@@ -1,0 +1,22 @@
+<form action="/update_student/{{ student.student_id }}" method="POST">
+    <input
+    type="text"
+    name="firstname"
+    value="{{ student.firstname }}"
+    class="form-control"
+>
+
+<input
+    type="text"
+    name="lastname"
+    value="{{ student.lastname }}"
+    class="form-control"
+>
+
+<button
+    type="submit"
+>
+    Update Student
+</button>
+
+</form>
